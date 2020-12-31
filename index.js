@@ -23,7 +23,7 @@ mysqlConnection.connect((err) => {
 });
 
 const port = process.env.PORT || 3000;
-app.listen(port, "127.0.0.1", (err) => {
+app.listen(port,  (err) => {
   if (err == null) {
     console.log("Server is running at port 3000!");
   } else {
